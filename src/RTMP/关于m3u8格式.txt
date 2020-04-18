@@ -1,0 +1,7 @@
+?#EXTM3U                     m3u文件头
+#EXT-X-MEDIA-SEQUENCE       第一个TS分片的序列号
+#EXT-X-TARGETDURATION       每个分片TS的最大的时长
+#EXT-X-ALLOW-CACHE          是否允许cache
+#EXT-X-ENDLIST              m3u8文件结束符
+#EXTINF                     指定每个媒体段(ts)的持续时间（秒），仅对其后面的URI有效
+mystream-12.ts

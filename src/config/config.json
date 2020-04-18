@@ -1,0 +1,59 @@
+{
+    "weixin":{
+		"appId": "w****c13da7f",
+		"appSecret": "cd48*****36664570",
+		"token": "ss_****t",
+		"encodingAESKey": "mROj*********h1limJmFKVe",
+		"profix":"https://api.weixin.qq.com/cgi-bin/",
+		"accessToken":"This is the aceessToken for ass"
+    },
+	"Menu": {
+		"button":[
+		{    
+			"type":"view",
+			"name":"实时监控",
+			"url":"http://www.ccteen.com/liveGet"
+		},
+		{     
+			"name":"设备",
+			"sub_button":[
+			{            
+				"type":"click",
+				"name":"状态数据",
+				"key":"V1001_Quip_State"
+			},
+			{
+				"type":"click",
+				"name":"控制门",
+				"key":"V1001_Open_Door"
+			},
+			{
+				"type":"click",
+				"name":"控制灯",
+				"key":"V1001_Open_Led"
+			},
+			{
+				"type":"click",
+				"name":"控制窗",
+				"key":"V1001_Open_window"
+			}
+			]
+		},
+		{
+			"name":"配置",
+			"sub_button":[
+				{
+					"type":"click",
+					"name":"绑定设备",
+					"key":"V1001_devBind"
+				},
+				{
+					"type":"click",
+					"name":"解绑设备",
+					"key":"V1001_devUBind"
+				}
+			]
+		}
+		]
+	}
+}
