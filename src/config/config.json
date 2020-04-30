@@ -1,9 +1,9 @@
 {
     "weixin":{
-		"appId": "w****c13da7f",
-		"appSecret": "cd48*****36664570",
+		"appId": "w****c1****7f",
+		"appSecret": "cd48*************70",
 		"token": "ss_****t",
-		"encodingAESKey": "mROj*********h1limJmFKVe",
+		"encodingAESKey": "mROj*********h1l*******FKVe",
 		"profix":"https://api.weixin.qq.com/cgi-bin/",
 		"accessToken":"This is the aceessToken for ass"
     },
@@ -12,7 +12,7 @@
 		{    
 			"type":"view",
 			"name":"实时监控",
-			"url":"http://www.ccteen.com/liveGet"
+			"url":"http://www.******.com/liveGet"
 		},
 		{     
 			"name":"设备",
